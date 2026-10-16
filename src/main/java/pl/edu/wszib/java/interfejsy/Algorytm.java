@@ -1,0 +1,28 @@
+package pl.edu.wszib.java.interfejsy;
+
+public abstract class Algorytm {
+
+    public void calculate() {
+        downloadData();
+        step1();
+        step2();
+        step3();
+        saveData();
+    }
+
+    public abstract void downloadData();
+
+    private void step1() {
+        System.out.println("licze s1 ...");
+    }
+
+    private void step2() {
+        System.out.println("licze s2 ...");
+    }
+
+    private void step3() {
+        System.out.println("licze s3 ...");
+    }
+
+    public abstract void saveData();
+}

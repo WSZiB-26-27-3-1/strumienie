@@ -1,3 +1,5 @@
+package pl.edu.wszib.java.interfejsy;
+
 public abstract class KlasaAbstrakcyjna {
     private int x;
 

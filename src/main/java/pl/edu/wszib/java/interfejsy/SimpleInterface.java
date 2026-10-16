@@ -1,3 +1,5 @@
+package pl.edu.wszib.java.interfejsy;
+
 public interface SimpleInterface {
     int cos();
     void cosinnego();

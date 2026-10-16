@@ -1,3 +1,5 @@
+package pl.edu.wszib.java.interfejsy;
+
 public class SimpleInterfaceImpl implements SimpleInterface {
     @Override
     public int cos() {
