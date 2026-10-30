@@ -1,6 +1,6 @@
 package pl.edu.wszib.java.anonimowe;
 
-public class Car implements Comparable<Car> {
+public class Car {
     private String brand;
     private String model;
     private int price;
@@ -42,10 +42,5 @@ public class Car implements Comparable<Car> {
                 ", model='" + model + '\'' +
                 ", price=" + price +
                 '}';
-    }
-
-    @Override
-    public int compareTo(Car o) {
-        return this.brand.compareTo(o.brand);
     }
 }
